@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": 136,
+    "attributes": [{ "name": "color", "options": ["red"] }],
+    "stock": "instock"
+  },
+  "buttonText": {
+    "addCart": "Add To Cart",
+    "buyNow": "Buy Now"
+  },
+  "detailsText": {
+    "colorTitle": "COLORS",
+    "socialTitle": "Share On"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "src": "https://via.placeholder.com/660x510",
+  "formText": {
+    "headerText": "Send Message",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "subjectPlaceholder": "SubJect",
+    "messagePlaceholder": "Write your message...",
+    "buttonText": "Send Message"
+  }
+}

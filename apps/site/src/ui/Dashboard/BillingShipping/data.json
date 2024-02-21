@@ -1,0 +1,46 @@
+{
+  "billing": {
+    "address_1": "123 Main Street",
+    "address_2": "Apt 4B",
+    "city": "Anytown",
+    "company": "ABC Corp",
+    "country": "US",
+    "email": "john.doe@example.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "phone": "123-4567",
+    "postcode": "12345",
+    "state": "CA"
+  },
+  "shipping": {
+    "address_1": "123 Main Street",
+    "address_2": "Apt 4B",
+    "city": "Anytown",
+    "company": "ABC Corp",
+    "country": "US",
+    "first_name": "John",
+    "last_name": "Doe",
+    "phone": "123-4567",
+    "postcode": "12345",
+    "state": "CA"
+  },
+  "textData": {
+    "billingText": "Billing Info",
+    "shippingText": "Shipping Address",
+    "editText": "Edit",
+    "fromText": {
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "companyPlaceholder": "Company Name",
+      "emailPlaceholder": "Email Address",
+      "phonePlaceholder": "Phone",
+      "countryPlaceholder": "Country",
+      "address1Placeholder": "Street Address 1",
+      "address2Placeholder": "Street Address 2",
+      "statePlaceholder": "State",
+      "cityPlaceholder": "City",
+      "postCodePlaceholder": "Post Code",
+      "buttonText": "Save Changes"
+    }
+  }
+}

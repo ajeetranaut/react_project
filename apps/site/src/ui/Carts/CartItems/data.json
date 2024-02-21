@@ -1,0 +1,24 @@
+{
+  "headerText": {
+    "product": "PRODUCT",
+    "price": "PRICE",
+    "quantity": "PRODUCT",
+    "subtotal": "SUBTOTAL"
+  },
+  "itemsData": [
+    {
+      "title": "Headphone",
+      "slug": "headphone",
+      "item_key": "b5ef4c70516abae6cc68f83f990b23c0",
+      "featured_image": "https://via.placeholder.com/50x50",
+      "price": "11900",
+      "quantity": {
+        "value": 1
+      },
+      "totals": {
+        "total": 119,
+        "subtotal": "11900"
+      }
+    }
+  ]
+}

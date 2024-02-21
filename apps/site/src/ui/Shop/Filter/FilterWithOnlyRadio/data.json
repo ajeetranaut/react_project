@@ -1,0 +1,37 @@
+{
+  "name": "Colors",
+  "filterItems": [
+    {
+      "name": "black",
+      "id": 36
+    },
+    {
+      "name": "blue",
+      "id": 31
+    },
+    {
+      "name": "brown",
+      "id": 39
+    },
+    {
+      "name": "green",
+      "id": 32
+    },
+    {
+      "name": "orange",
+      "id": 33
+    },
+    {
+      "name": "pink",
+      "id": 37
+    },
+    {
+      "name": "red",
+      "id": 30
+    },
+    {
+      "name": "violet",
+      "id": 38
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "productId": 123,
+  "reviewInputText": {
+    "header": "Leave a Review",
+    "ratingText": "Your rating",
+    "buttonText": "Send Message",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "reviewPlaceholder": "Write your message..."
+  }
+}

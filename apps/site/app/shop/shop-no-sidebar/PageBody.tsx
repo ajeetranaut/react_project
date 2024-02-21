@@ -1,0 +1,148 @@
+"use client";
+
+import { ShopProductWarperTwo } from "@/components/products/ShopProductWarperTwo";
+import { useGlobalContext } from "@/context/store";
+import { BrandData } from "@/data/BrandData";
+import { BlockLayout, Brands, BreadcrumbOne, Gap, HorizontalLine, ProductHeader, RecentlyViewed } from "@/ui";
+import { getCookie } from "cookies-next";
+import { getProducts } from "lib/woocommerce/getProducts";
+import { Fragment, useEffect, useMemo, useState, useTransition } from "react";
+
+const ShopNoSidebarBody = () => {
+	const { dictionaries } = useGlobalContext();
+	const [totalProductCount, setTotalProductCount] = useState(0);
+	const [loading, setLoading] = useState(true)
+	// *** This is for all products server side data fetch ***
+	const [allProductsData, setAllProductsData] = useState<[] | null>(null);
+	// *** This is for all recently viewed server side data fetch ***
+	const [includeData, setIncludeData] = useState<[] | null>(null)
+	const [filterOpen, setFilterOpen] = useState(false);
+	const [productActive, setProductActive] = useState(0);
+	const [pageLimit, setPageLimit] = useState(12);
+	const [productSort, setProductSort] = useState("date");
+	const [priceRange, setPriceRange] = useState([0, 2000]);
+	const [finalPriceRange, setFinalPriceRange] = useState(priceRange); // Region This is for price range filter to set final price range
+	const [colorAttribute, setColorAttribute] = useState("");
+	const [, startTransition] = useTransition();
+	const attributeQuery = useMemo(() => {
+		return colorAttribute ? { attribute: `pa_color`, attribute_term: colorAttribute } : {};
+	}, [colorAttribute]);
+
+	// NOTE: This is for all filter server side data fetch
+	useEffect(() => {
+		const closeId = setTimeout(() => {
+			if (loading) {
+				startTransition(() => {
+					getProducts({
+						per_page: pageLimit,
+						status: "publish",
+						orderby: productSort,
+						min_price: finalPriceRange[0].toString(),
+						max_price: finalPriceRange[1].toString(),
+						...attributeQuery,
+					}).then((res) => {
+						setAllProductsData(res.data);
+						setTotalProductCount(res.total);
+						setLoading(false)
+					});
+				})
+			}
+		}, 100);
+
+
+		return () => clearTimeout(closeId);
+
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [loading]);
+
+	// NOTE: all the data fetch from server side for the first time
+	useEffect(() => {
+		startTransition(() => {
+			// NOTE: This is for all recently viewed server side data fetch
+			const getRecentlyViewed = getCookie("metashop:recentlyViewed");
+			if (getRecentlyViewed) {
+				const recentlyViewed = JSON.parse(getRecentlyViewed as string);
+
+				if (recentlyViewed?.length > 0) {
+					getProducts({
+						per_page: 4,
+						include: recentlyViewed,
+					}).then((res) => {
+						if (res.error) {
+							setIncludeData([])
+							return
+						}
+						setIncludeData(res.data)
+					})
+				}
+			} else {
+				setIncludeData([])
+			}
+		});
+
+		// *** window focus set loading to true ***
+		window.addEventListener('focus', () => {
+			setLoading(true)
+		})
+
+		return () => {
+			setIncludeData(null)
+		};
+	}, []);
+
+	return (
+		<Fragment>
+			<BreadcrumbOne title={dictionaries?.shop?.breadcrumb?.title} />
+			<Gap className="mt-16" />
+			<ProductHeader
+				textData={dictionaries?.shop?.headerText}
+				filterOpen={filterOpen}
+				setFilterOpen={setFilterOpen}
+				setpage={setPageLimit}
+				setSort={setProductSort}
+				productActive={productActive}
+				setProductActive={setProductActive}
+				totalProductShow={allProductsData?.length}
+				totalProductCount={totalProductCount}
+				setLoading={setLoading}
+			/>
+			<BlockLayout>
+
+				<ShopProductWarperTwo
+					productActive={productActive}
+					allProductsData={allProductsData}
+					allProductsLoading={loading}
+				/>
+
+				{/* Load More button */}
+				{(pageLimit < totalProductCount && !loading && allProductsData && Number(totalProductCount) !== allProductsData.length) && (
+					<div className="w-full flex items-center justify-center">
+						<button
+							onClick={() => {
+								setPageLimit(pageLimit + 12)
+								setLoading(true)
+							}}
+							className="px-5 py-3 mt-10 text-secondary bg-secondary-content rounded-md hover:bg-secondary hover:text-secondary-content transition-all duration-300 ease-in-out"
+						>
+							{dictionaries?.shop?.loadMore}
+						</button>
+					</div>
+				)}
+				<Gap />
+				<HorizontalLine />
+				<Gap />
+				{!includeData || includeData?.length > 0 && (
+					<RecentlyViewed
+						title={dictionaries?.shop?.recently_viewed.title}
+						buttonText={dictionaries?.shop?.recently_viewed.btnText}
+						data={includeData}
+					/>
+				)}
+				<Gap />
+				<Brands data={BrandData} />
+				<Gap />
+			</BlockLayout>
+		</Fragment>
+	);
+};
+export default ShopNoSidebarBody;

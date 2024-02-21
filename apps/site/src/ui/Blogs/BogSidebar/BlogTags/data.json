@@ -1,0 +1,29 @@
+{
+  "title": "Tags",
+  "data": [
+    {
+      "name": "Compute",
+      "slug": "compute"
+    },
+    {
+      "name": "Electric",
+      "slug": "electric"
+    },
+    {
+      "name": "New",
+      "slug": "new"
+    },
+    {
+      "name": "Trending",
+      "slug": "trending"
+    },
+    {
+      "name": "New",
+      "slug": "new"
+    },
+    {
+      "name": "2024",
+      "slug": "2024"
+    }
+  ]
+}

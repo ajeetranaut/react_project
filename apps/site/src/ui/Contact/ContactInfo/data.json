@@ -1,0 +1,56 @@
+{
+  "textType": "en",
+  "data": {
+    "en": [
+      {
+        "title": "Address",
+        "contact1": "1328 Oak Ridge Drive, Saint Louis",
+        "contact2": "Missouri - 63102"
+      },
+      {
+        "title": "Phone",
+        "contact1": "314-332-8662",
+        "contact2": "314-332-8662"
+      },
+      {
+        "title": "Email",
+        "contact1": "support@metashop.com",
+        "contact2": "info@metashop.com"
+      }
+    ],
+    "ar": [
+      {
+        "title": "عنوان",
+        "contact1": "1328 أوك ريدج درايف، سانت لويس",
+        "contact2": "ميسوري - 63102"
+      },
+      {
+        "title": "هاتف",
+        "contact1": "314-332-8662",
+        "contact2": "314-332-8662"
+      },
+      {
+        "title": "بريد إلكتروني",
+        "contact1": "support@metashop.com",
+        "contact2": "info@metashop.com"
+      }
+    ],
+    "es": [
+      {
+        "title": "Dirección",
+        "contact1": "1328 Oak Ridge Drive, San Luis",
+        "contact2": "Misuri - 63102"
+      },
+      {
+        "title": "Teléfono",
+        "contact1": "314-332-8662",
+        "contact2": "314-332-8662"
+      },
+      {
+        "title": "Correo electrónico",
+        "contact1": "support@metashop.com",
+        "contact2": "info@metashop.com"
+      }
+    ]
+  }
+}

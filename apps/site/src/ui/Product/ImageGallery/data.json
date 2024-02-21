@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "src": "/image/product7.png",
+      "alt": "product7"
+    },
+    {
+      "src": "/image/product17.png",
+      "alt": "product17"
+    },
+    {
+      "src": "/image/product19.png",
+      "alt": "product19"
+    }
+  ],
+  "discount": 9
+}

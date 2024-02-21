@@ -1,0 +1,64 @@
+{
+  "textData": {
+    "title": "Filter",
+    "categoryTitle": "Category",
+    "colorTitle": "Colors",
+    "priceTitle": "Price"
+  },
+  "categorydata": [
+    {
+      "name": "bag",
+      "slug": "bag",
+      "id": 27
+    },
+    {
+      "name": "Electronics",
+      "slug": "electronics",
+      "id": 34
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile",
+      "id": 28
+    },
+    {
+      "name": "sunglass",
+      "slug": "sunglass",
+      "id": 17
+    }
+  ],
+  "colorAttributeData": [
+    {
+      "name": "black",
+      "value": 36
+    },
+    {
+      "name": "blue",
+      "value": 31
+    },
+    {
+      "name": "brown",
+      "value": 39
+    },
+    {
+      "name": "green",
+      "value": 32
+    },
+    {
+      "name": "orange",
+      "value": 33
+    },
+    {
+      "name": "pink",
+      "value": 37
+    },
+    {
+      "name": "red",
+      "value": 30
+    },
+    {
+      "name": "violet",
+      "value": 38
+    }
+  ]
+}

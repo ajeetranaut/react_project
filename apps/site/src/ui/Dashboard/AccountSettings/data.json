@@ -1,0 +1,12 @@
+{
+  "textData": {
+    "titleText": "Basic Info",
+    "fromText": {
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "usernamePlaceholder": "Username",
+      "emailPlaceholder": "Email Address",
+      "buttonText": "Save Changes"
+    }
+  }
+}

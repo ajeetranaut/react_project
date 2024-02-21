@@ -1,0 +1,17 @@
+{
+  "title": "Empowering",
+  "sub_title": "eCommerce brands everywhere.",
+  "description": "Learn more about our story and the hard-working people behind the pink envelope.",
+  "lgImage": {
+    "src": "/about.png",
+    "alt": "About Us",
+    "imageWidth": 1350,
+    "imageHeight": 500
+  },
+  "smImage": {
+    "src": "/about.png",
+    "alt": "About Us",
+    "imageWidth": 500,
+    "imageHeight": 380
+  }
+}

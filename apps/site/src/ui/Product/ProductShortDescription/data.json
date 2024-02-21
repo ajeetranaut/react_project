@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": 136,
+    "name": "Headphone",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur corrupti itaque quia repudiandae iste. Aspernatur modi placeat beatae impedit esse voluptatem nobis nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "sale_price": "119",
+    "regular_price": "139",
+    "price": "119",
+    "stock": "instock",
+    "rating": "5.00",
+    "reviews": 1
+  },
+  "reviewsText": "reviews"
+}

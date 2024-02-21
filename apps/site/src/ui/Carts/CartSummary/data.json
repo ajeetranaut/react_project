@@ -1,0 +1,14 @@
+{
+  "textData": {
+    "headerText": "Order Summary",
+    "subtotalText": "Subtotal",
+    "shippingText": "Shipping",
+    "shippingValue": "Cash On Delivery",
+    "totalText": "Total",
+    "buttonText": "Proceed To Checkout"
+  },
+  "summaryData": {
+    "subtotal": "119",
+    "total": "119.00"
+  }
+}

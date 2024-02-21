@@ -1,0 +1,25 @@
+{
+  "name": "Category",
+  "filterItems": [
+    {
+      "name": "bag",
+      "slug": "bag",
+      "id": 27
+    },
+    {
+      "name": "Electronics",
+      "slug": "electronics",
+      "id": 34
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile",
+      "id": 28
+    },
+    {
+      "name": "sunglass",
+      "slug": "sunglass",
+      "id": 17
+    }
+  ]
+}

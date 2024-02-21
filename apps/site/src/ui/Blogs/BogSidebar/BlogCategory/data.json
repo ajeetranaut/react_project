@@ -1,0 +1,15 @@
+{
+  "title": "Browse By Categories",
+  "data": [
+    {
+      "name": "Gadgets",
+      "slug": "gadgets",
+      "count": 3
+    },
+    {
+      "name": "Technology",
+      "slug": "technology",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "textData": {
+    "filterButton": "Filter",
+    "showText": {
+      "showing": "Showing",
+      "of": "of",
+      "results": "results"
+    },
+    "textType": "en"
+  },
+  "totalProductShow": 6,
+  "totalProductCount": 13,
+  "showOptionsData": {
+    "en": [
+      {
+        "name": "Show 12",
+        "value": 12
+      },
+      {
+        "name": "Show 24",
+        "value": 24
+      },
+      {
+        "name": "Show 36",
+        "value": 36
+      }
+    ],
+    "ar": [
+      {
+        "name": "عرض 12",
+        "value": 12
+      },
+      {
+        "name": "عرض 24",
+        "value": 24
+      },
+      {
+        "name": "عرض 36",
+        "value": 36
+      }
+    ],
+    "es": [
+      {
+        "name": "Mostrar 12",
+        "value": 12
+      },
+      {
+        "name": "Mostrar 24",
+        "value": 24
+      },
+      {
+        "name": "Mostrar 36",
+        "value": 36
+      }
+    ]
+  },
+  "sortOptionsData": {
+    "en": [
+      {
+        "name": "Default Sorting",
+        "value": "date"
+      },
+      {
+        "name": "average rating",
+        "value": "rating"
+      },
+      {
+        "name": "popularity",
+        "value": "popularity"
+      }
+    ],
+    "ar": [
+      {
+        "name": "الفرز الافتراضى",
+        "value": "date"
+      },
+      {
+        "name": "متوسط ​​تقييم",
+        "value": "rating"
+      },
+      {
+        "name": "شعبية",
+        "value": "popularity"
+      }
+    ],
+    "es": [
+      {
+        "name": "Clasificación por defecto",
+        "value": "date"
+      },
+      {
+        "name": "Puntuación media",
+        "value": "rating"
+      },
+      {
+        "name": "popularidad",
+        "value": "popularity"
+      }
+    ]
+  }
+}

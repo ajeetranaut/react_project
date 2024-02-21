@@ -1,0 +1,53 @@
+[
+  {
+    "title": "PERFECT COLLECTION GADGETS",
+    "excerpt": "FREE HOME DELIVERY OUTSIDE FROM THE CITY",
+    "button": {
+      "title": "SHOP NOW",
+      "link": "/shop",
+      "target": "_self"
+    },
+    "image": {
+      "src": "/image/banner1.png",
+      "height": 650,
+      "width": 553,
+      "index": 0
+    },
+    "offer": "Flat 50% Off",
+    "offerType": "NEW"
+  },
+  {
+    "title": "PERFECT COLLECTION GADGETS",
+    "excerpt": "FREE HOME DELIVERY OUTSIDE FROM THE CITY",
+    "button": {
+      "title": "SHOP NOW",
+      "link": "/shop",
+      "target": "_self"
+    },
+    "image": {
+      "src": "/image/banner2.png",
+      "height": 650,
+      "width": 553,
+      "index": 0
+    },
+    "offer": "Flat 30% Off",
+    "offerType": "SALE"
+  },
+  {
+    "title": "PERFECT COLLECTION GADGETS",
+    "excerpt": "FREE HOME DELIVERY OUTSIDE FROM THE CITY",
+    "button": {
+      "title": "SHOP NOW",
+      "link": "/shop",
+      "target": "_self"
+    },
+    "image": {
+      "src": "/image/banner1.png",
+      "height": 650,
+      "width": 553,
+      "index": 0
+    },
+    "offer": "Flat 40% Off",
+    "offerType": "HOT"
+  }
+]

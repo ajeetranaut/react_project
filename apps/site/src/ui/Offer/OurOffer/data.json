@@ -1,0 +1,23 @@
+{
+  "title": "What can we do for you?",
+  "offers": [
+    {
+      "title": "Free Shipping",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor."
+    },
+    {
+      "title": "100% Money Back",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor."
+    },
+    {
+      "title": "Support 24/7",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor."
+    }
+  ],
+  "image": {
+    "src": "/image/platform1.png",
+    "alt": "Offer Image",
+    "width": 640,
+    "height": 520
+  }
+}

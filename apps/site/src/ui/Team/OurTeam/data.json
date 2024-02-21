@@ -1,0 +1,26 @@
+{
+  "title": "Our Team",
+  "description": "Our team is made up of passionate people who love to create.",
+  "list": [
+    {
+      "avatar": "/image/team1.png",
+      "name": "Linh Nguyen",
+      "title": "Owner & Founder"
+    },
+    {
+      "avatar": "/image/team2.png",
+      "name": "Linh Nguyen",
+      "title": "Owner & Founder"
+    },
+    {
+      "avatar": "/image/team3.png",
+      "name": "Linh Nguyen",
+      "title": "Owner & Founder"
+    },
+    {
+      "avatar": "/image/team4.png",
+      "name": "Linh Nguyen",
+      "title": "Owner & Founder"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "id": 136,
+    "name": "Headphone",
+    "slug": "headphone",
+    "price": "119",
+    "image": [
+      {
+        "id": 137,
+        "date_created": "2023-01-10T14:16:56",
+        "date_created_gmt": "2023-01-10T14:16:56",
+        "date_modified": "2023-01-10T14:16:56",
+        "date_modified_gmt": "2023-01-10T14:16:56",
+        "src": "/image/product4.png",
+        "name": "product4",
+        "alt": "product4"
+      }
+    ],
+    "rating": "5.00",
+    "reviews": 1,
+    "sale_price": "119",
+    "regular_price": "139",
+    "discount": 14.388489208633093
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "metashop",
+  "version": "1.0.0",
+  "description": "Headless shop theme with next.js",
+  "private": true,
+  "author": "JS Template",
+  "license": "EULA",
+  "support": {
+    "email": "support@jstemplate.net"
+  },
+  "workspaces": [
+    "apps/site",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "packageManager": "pnpm@7.9.0"
+}

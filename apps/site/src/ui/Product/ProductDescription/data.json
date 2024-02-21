@@ -1,0 +1,43 @@
+{
+  "data": {
+    "id": 123,
+    "image": [
+      {
+        "src": "/image/product7.png",
+        "alt": "product7"
+      },
+      {
+        "src": "/image/product17.png",
+        "alt": "product17"
+      },
+      {
+        "src": "/image/product19.png",
+        "alt": "product19"
+      }
+    ],
+    "discount": 9,
+    "name": "Headphone",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur corrupti itaque quia repudiandae iste. Aspernatur modi placeat beatae impedit esse voluptatem nobis nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur corrupti itaque quia repudiandae iste. Aspernatur modi placeat beatae impedit esse voluptatem nobis nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur corrupti itaque quia repudiandae iste. Aspernatur modi placeat beatae impedit esse voluptatem nobis nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur corrupti itaque quia repudiandae iste. Aspernatur modi placeat beatae impedit esse voluptatem nobis nulla?",
+    "sale_price": "119",
+    "regular_price": "139",
+    "price": "119",
+    "stock": "instock",
+    "rating": "5.00",
+    "reviews": 1,
+    "attributes": [{ "name": "color", "options": ["red"] }]
+  },
+  "headingTitle": {
+    "description": "Description",
+    "additionalInfo": "Additional Information",
+    "review": "Review"
+  },
+  "reviewInputText": {
+    "header": "Leave a Review",
+    "ratingText": "Your rating",
+    "buttonText": "Send Message",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "reviewPlaceholder": "Write your message..."
+  }
+}

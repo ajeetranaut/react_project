@@ -1,0 +1,38 @@
+{
+  "summaryTextData": {
+    "headerText": "Order Summary",
+    "emptyText": "Your cart is empty",
+    "couponText": "Discount Coupon",
+    "couponButtonText": "Apply",
+    "subtotalText": "Subtotal",
+    "discountText": "Discount",
+    "totalText": "Total"
+  },
+  "billingTextData": {
+    "headerText": "Billing Details",
+    "returnCartText": "Return to cart",
+    "emptyText": "Your cart is currently empty.",
+    "fromText": {
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "companyPlaceholder": "Company Name",
+      "optionalText": "Optional",
+      "countryPlaceholder": "Select Country",
+      "countryLabel": "Country / Region",
+      "addressPlaceholder": "Address",
+      "addressLabel": "Street Address",
+      "cityPlaceholder": "City",
+      "cityLabel": "Your Town / City",
+      "statePlaceholder": "Select State",
+      "stateLabel": "Your State",
+      "postCodePlaceholder": "Your Post Code/Zip",
+      "postCodeLabel": "Postcode / ZIP",
+      "phonePlaceholder": "Your Phone",
+      "phoneLabel": "Phone",
+      "emailPlaceholder": "Your Email Address",
+      "emailLabel": "Email Address",
+      "orderButtonText": "Place Order",
+      "processButtonText": "Processing..."
+    }
+  }
+}
